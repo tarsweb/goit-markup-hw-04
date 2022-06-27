@@ -345,7 +345,7 @@ img{
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  
+
   background-color: var(--background-light-color);
 }
 
@@ -440,7 +440,7 @@ img{
   padding-left: 0;
 }
 
-.our-clients-item > .link::before{
+/* .our-clients-item > .link::before{
   display: block;
 
   background-color: var(--main-light-color);
@@ -452,29 +452,46 @@ img{
   border: 1px solid var(--background-light-color);
   border-radius: 4px;
 
+} */
+
+.our-clients-item>.link {
+  display: block;
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--background-light-color);
+  border-radius: 4px;
+  
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.our-clients-item > .link.company-one::before{
+/* .our-clients-item > .link.company-one::before{ */
+.link.company-one {  
   background-image: url(../images/clients/logo-1.svg);
 }
 
-.our-clients-item > .link.company-two::before{
+/* .our-clients-item > .link.company-two::before{ */
+.link.company-two {
   background-image: url(../images/clients/logo-2.svg);
 }
 
-.our-clients-item > .link.company-three::before{
+/* .our-clients-item > .link.company-three::before{ */
+.link.company-three {
   background-image: url(../images/clients/logo-3.svg);
 }
 
-.our-clients-item > .link.company-four::before{
+/* .our-clients-item > .link.company-four::before{ */
+.link.company-four {
   background-image: url(../images/clients/logo-4.svg);
 }
 
-.our-clients-item > .link.company-five::before{
+/* .our-clients-item > .link.company-five::before{ */
+.link.company-five {
   background-image: url(../images/clients/logo-5.svg);
 }
 
-.our-clients-item > .link.company-six::before{
+/* .our-clients-item > .link.company-six::before{ */
+.link.company-six{
   background-image: url(../images/clients/logo-6.svg);
 }
 
