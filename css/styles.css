@@ -355,10 +355,10 @@ img{
   /* flex-basis: calc(100% / 4 - var(--margin-set-gap)); */
   --count-inline: 4;  
   flex-basis: calc((100% - (var(--count-inline) - 1) * var(--margin-set-gap)) / var(--count-inline));
-  /* box-shadow : 0px 1px 3px rgba(0, 0, 0, 0.12),
+  box-shadow : 0px 1px 3px rgba(0, 0, 0, 0.12),
                0px 1px 1px rgba(0, 0, 0, 0.14),
                0px 2px 1px rgba(0, 0, 0, 0.2); 
-  border-radius: 0px 0px 4px 4px; */
+  border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-item + .our-team-item {
@@ -407,6 +407,10 @@ img{
   border-radius: 50%;
 }
 
+.contact-social-item + .contact-social-item {
+  margin-left: 10px;
+}
+
 .contact-social-item.instagram::before {
   background-image: url(../images/social-link-decoration/instagram.svg);
 }
@@ -442,6 +446,7 @@ img{
   height: 92px;
   width: 170px;
   border: 1px solid var(--background-light-color);
+  border-radius: 4px;
 
 }
 
@@ -651,11 +656,7 @@ img{
   text-transform: uppercase;
 }
 
-.contact-social-item + .contact-social-item {
-  margin-left: 10px;
-}
-
-.contact-item + .contact-item {
+.list.contacts-studio .contact-item + .contact-item {
   margin-left: 70px;
 }
 
@@ -674,19 +675,3 @@ img{
 
   border-radius: 50%;
 }
-
-/* .social-contact .contact-solcial-item.instagram::before {
-  background-image: url(../images/social-link-decoration/instagram.svg);
-}
-
-.social-contact .contact-solcial-item.twitter::before {
-  background-image: url(../images/social-link-decoration/twitter.svg);
-}
-
-.social-contact .contact-solcial-item.facebook::before {
-  background-image: url(../images/social-link-decoration/facebook.svg);
-}
-
-.social-contact .contact-solcial-item.linkedin::before {
-  background-image: url(../images/social-link-decoration/linkedin.svg);
-} */
