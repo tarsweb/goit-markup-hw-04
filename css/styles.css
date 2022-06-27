@@ -451,27 +451,27 @@ img{
 }
 
 .our-clients-item > .link.company-one::before{
-  background-image: url(../images/Clients/logo-1.svg);
+  background-image: url(../images/clients/logo-1.svg);
 }
 
 .our-clients-item > .link.company-two::before{
-  background-image: url(../images/Clients/logo-2.svg);
+  background-image: url(../images/clients/logo-2.svg);
 }
 
 .our-clients-item > .link.company-three::before{
-  background-image: url(../images/Clients/logo-3.svg);
+  background-image: url(../images/clients/logo-3.svg);
 }
 
 .our-clients-item > .link.company-four::before{
-  background-image: url(../images/Clients/logo-4.svg);
+  background-image: url(../images/clients/logo-4.svg);
 }
 
 .our-clients-item > .link.company-five::before{
-  background-image: url(../images/Clients/logo-5.svg);
+  background-image: url(../images/clients/logo-5.svg);
 }
 
 .our-clients-item > .link.company-six::before{
-  background-image: url(../images/Clients/logo-6.svg);
+  background-image: url(../images/clients/logo-6.svg);
 }
 
 /* filter */
